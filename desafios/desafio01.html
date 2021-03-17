@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Mensagens</title>
+    <style>
+        button{
+            padding: 30px;
+            margin-right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <button class="botao1" onclick="botao1()">Click1</button>
+    <button class="botao2" onclick="botao2()">Click2</button>
+    <button class="botao3" onclick="botao3()">Click3</button>
+
+    <script>
+        function botao1() {
+            var b1 = document.getElementsByClassName("botao1")
+            b1[0].innerHTML = alert('Você clicou no botão 1')
+        }
+
+        function botao2() {
+            var b2 = document.getElementsByClassName("botao2")
+            b2[0].innerHTML = alert('Você clicou no botão 2')
+        }
+
+        function botao3() {
+            var b3 = document.getElementsByClassName("botao3")
+            b3[0].innerHTML = alert('Você clicou no botão 3')
+        }
+    </script>
+</body>
+</html>

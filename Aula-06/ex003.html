@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa.</title>
+    <style>
+        body {
+            background-color: rgb(241, 171, 171);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Já me livrei da Maldição!</p>
+    <script>
+        let n1, n2, n3, n4, media
+
+        n1 = parseFloat(prompt('Digite a primeira nota!'))
+        n2 = parseFloat(prompt('Digite a segunda nota!'))
+        n3 = parseFloat(prompt('Digite a terceira nota!'))
+        n4 = parseFloat(prompt('Digite a quarta nota!'))
+        media = (n1 + n2 + n3 + n4) / 4
+
+        /* 
+        Number.parseInt -> converte o dado recebido em numero inteiro
+        Number.parseFloat -> converte o dado recebido em numero Real
+        Number -> converte o dado em numero inteiro ou real 
+        (n).toString -> converte a variável em String ou String(n) também funciona
+        */
+        
+        alert(`A soma das notas ${n1}, ${n2}, ${n3} e ${n4} dá: ${media.toFixed(1).replace('.', ',')}`)
+        /*
+            template string é utilizado para concatenar váriaveis a strings de forma visualmente melhor.
+            Utiliza-se entre crazes (``) assim podendo utilizar string e junto ${n} para adicionar a váriavel junto a string. 
+        */
+    </script>
+</body>
+</html>
