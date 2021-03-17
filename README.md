@@ -7,8 +7,8 @@ Um monte de código aleatórios do meu aprendizado em ```JavaScript```, utilizan
 ### *Checklist de aprendizagem:*
 
 - [x] Criar um repo para os códigos.
-- [ ] a
-- [ ] a
-- [ ] a
-- [ ] a
-- [ ] a
+- [ ] Fazer o primeiro código simples
+- [ ] Fazer um algoritmo maior em JS
+- [ ] x
+- [ ] x
+- [ ] Fazer uma calculadora (?)
